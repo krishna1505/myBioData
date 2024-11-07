@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio Data</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styles for the headings */
+        .headings {
+            color: #2a2a2a;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling the details and summary section */
+        details {
+            margin: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 80%;
+            background-color: #f9f9f9;
+        }
+
+        summary {
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+        }
+
+        summary img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        .dd{
+            width: 200px;
+            height: 200px;
+        }
+
+        .allData {
+            width: 80%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        h5, h3 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Style for the 'Contact Details' section */
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        .ds{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="headings">Bio Data</h1>
+    <div class="allData">
+        <!-- Photo Section using Summary -->
+        <details>
+            <summary>
+                <img src="ing.jpg" alt="Profile Photo">
+                Click to view Photo 
+            </summary>
+            <p><strong>Photo:</strong></p>
+            <img  class= "dd" src="ing.jpg" alt="Profile Photo">
+        </details>
+
+        <!-- Personal Information -->
+        <details>
+            <summary>Personal Information</summary>
+            <h5>NAME - BRIJMOHAN YADAV</h5>
+            <h5>DATE OF BIRTH - 05/01/2000</h5>
+            <h5>BIRTHPLACE - GORAKHPUR</h5>
+            <h5>AGE - 24</h5>
+            <h5>HEIGHT - 5.7 inches</h5>
+            <h5>WEIGHT - 70kg</h5>
+            <h5>JOB OCCUPATION -  MANUFACTURING EXECUTIVE AT <Q  class="ds">ITC LTD</Q></h5>
+            <h5>HOBBIES - MUSIC, CRICKET</h5>
+        </details>
+
+        <!-- Education Section -->
+        <details>
+            <summary>Education Details</summary>
+            <h5 class="edu">DIPLOMA IN MECHANICAL ENGINEERING FROM <q>LIT LUCKNOW </q></h5>
+            <h5 class="edu">B.TECH IN MECHANICAL ENGINEERING FROM <q>MUIT LUCKNOW </q></h5>
+        </details>
+
+        <!-- Family Background Section -->
+        <details>
+            <summary>Family Background</summary>
+            <h5>FATHER NAME - MR. RAM KEWAL YADAV</h5>
+            <h5>FATHER OCCUPATION - EMPLOYEE AT HINDALCO INDUSTRIES LTD.</h5>
+            <h5>MOTHER NAME - MRS. GUDDI DEVI</h5>
+            <h5>MOTHER OCCUPATION - HOME MAKER</h5>
+            <h5>YOUNGER BROTHER - KRISHNA MOHAN YADAV</h5>
+            <h5>BROTHER OCCUPATION - B.TECH IN INFORMATION TECHNOLOGY FROM <q>IET FAIZABAD</q> <q class="dd">WEB DEVELOPER</q></h5>
+        </details>
+
+        <!-- Address Details Section -->
+        <details>
+            <summary>Address Details</summary>
+            <h5>L-1010 HINDALCO COLONY RENUKOOT SONBHADRA.</h5>
+            <h5><q class="DR">PERMANENT ADDRESS</q> - <q class="DR">VILLAGE</q> KHANTAPAR <q class="DR">POST</q> LALPUR TIKAR <q class="DR">DISTRICT</q> GORAKHPUR</h5>
+        </details>
+
+        <!-- Contact Details Section -->
+        <details>
+            <summary>Contact Details</summary>
+            <h5>MOBILE NUMBERS - WhatsApp: 7054215638, 9451573264</h5>
+            <a href="mailto:ky2288922@gmail.com">ky2288922@gmail.com</a>
+        </details>
+    </div>
+</body>
+</html>
